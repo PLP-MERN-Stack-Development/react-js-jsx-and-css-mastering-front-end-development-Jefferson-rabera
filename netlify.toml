@@ -2,19 +2,6 @@
   command = "npm run build"
   publish = "build"
 
-[build.environment]
-  NODE_VERSION = "18"
-  NODE_ENV = "production"
-
-# Cache configuration for React
-[build]
-  command = "npm run build"
-  publish = "build"
-
-[build.environment]
-  NODE_VERSION = "18"
-
-# SPA routing
 [[redirects]]
   from = "/*"
   to = "/index.html"
